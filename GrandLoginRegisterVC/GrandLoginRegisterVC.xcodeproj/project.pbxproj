@@ -73,7 +73,7 @@
 		A79B60E21D72E14100AEE3F5 /* WLModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLModalView.m; sourceTree = "<group>"; };
 		A79B60E31D72E14100AEE3F5 /* WLTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTextField.h; sourceTree = "<group>"; };
 		A79B60E41D72E14100AEE3F5 /* WLTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTextField.m; sourceTree = "<group>"; };
-		A79B60EA1D72E27000AEE3F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = GrandLoginRegisterVC/PrefixHeader.pch; sourceTree = "<group>"; };
+		A79B60EA1D72E27000AEE3F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		BFB560ACB875C7402F428727 /* libPods-GrandLoginRegisterVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrandLoginRegisterVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC35625EFFE2B072516BC2AB /* Pods-GrandLoginRegisterVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandLoginRegisterVCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrandLoginRegisterVCTests/Pods-GrandLoginRegisterVCTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEF174F119484D6144D701AB /* Pods-GrandLoginRegisterVCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandLoginRegisterVCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrandLoginRegisterVCUITests/Pods-GrandLoginRegisterVCUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -110,7 +110,6 @@
 		A79B609B1D72E0E600AEE3F5 = {
 			isa = PBXGroup;
 			children = (
-				A79B60EA1D72E27000AEE3F5 /* PrefixHeader.pch */,
 				A79B60A61D72E0E600AEE3F5 /* GrandLoginRegisterVC */,
 				A79B60C01D72E0E600AEE3F5 /* GrandLoginRegisterVCTests */,
 				A79B60CB1D72E0E600AEE3F5 /* GrandLoginRegisterVCUITests */,
@@ -138,6 +137,7 @@
 				A79B60AB1D72E0E600AEE3F5 /* AppDelegate.m */,
 				A79B60AD1D72E0E600AEE3F5 /* ViewController.h */,
 				A79B60AE1D72E0E600AEE3F5 /* ViewController.m */,
+				A79B60EA1D72E27000AEE3F5 /* PrefixHeader.pch */,
 				A79B60B01D72E0E600AEE3F5 /* Main.storyboard */,
 				A79B60B31D72E0E600AEE3F5 /* Assets.xcassets */,
 				A79B60B51D72E0E600AEE3F5 /* LaunchScreen.storyboard */,

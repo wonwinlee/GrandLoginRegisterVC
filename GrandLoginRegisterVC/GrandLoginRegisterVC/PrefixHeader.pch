@@ -2,9 +2,9 @@
 //  PrefixHeader.pch
 //  GrandLoginRegisterVC
 //
-//  Created by hudongshili on 16/8/28.
-//  Copyright © 2016年 hudongshili. All rights reserved.
-//
+//  Created by W_Lee on 16/8/28.
+//  Copyright © 2016年 W_Lee. All rights reserved.
+//  我的简书地址:http://www.jianshu.com/users/9be6d38c4bc5/latest_articles
 
 
 //**************调试和发布版本之间的设置*****************
@@ -24,22 +24,6 @@
 #ifdef __OBJC__  //所有objective-c文件共享的头文件
 
 #import <HYBHelperKit.h>
-
-
-#define kScreenBounds [UIScreen mainScreen].bounds
-#define kScreenWidth  kScreenBounds.size.width
-#define kScreenHeight kScreenBounds.size.height
-
-#define WLColor(r, g, b, alpha) \
-[UIColor colorWithRed:(r) / 255.0f \
-green:(g) / 255.0f \
-blue:(b) / 255.0f \
-alpha:(alpha)]
-//
-//#define kTabBarHeight 64
-//#define kTitleFont [UIFont systemFontOfSize:15]
-//#define kDetailFont [UIFont systemFontOfSize:13]
-
 
 
 #endif
