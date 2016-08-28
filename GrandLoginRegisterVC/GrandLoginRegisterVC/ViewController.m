@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+//
+#import "WLModalViewController.h"
 
 @interface ViewController ()
 
@@ -17,11 +19,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+}
+- (IBAction)modalLoginVC:(UIButton *)sender {
+    //
+    WLModalViewController * modalVC = [[WLModalViewController alloc] init];
+    
+    [self presentViewController:modalVC animated:YES completion:^{
+        //nothing
+    }];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
+
 
 @end

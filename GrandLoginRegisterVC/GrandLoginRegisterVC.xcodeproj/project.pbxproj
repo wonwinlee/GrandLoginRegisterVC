@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		435769AF8F85AAE2ABDA66D6 /* libPods-GrandLoginRegisterVCTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BF55BFC3AE4EBC50C0A086 /* libPods-GrandLoginRegisterVCTests.a */; };
 		A79B60A91D72E0E600AEE3F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B60A81D72E0E600AEE3F5 /* main.m */; };
 		A79B60AC1D72E0E600AEE3F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B60AB1D72E0E600AEE3F5 /* AppDelegate.m */; };
 		A79B60AF1D72E0E600AEE3F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B60AE1D72E0E600AEE3F5 /* ViewController.m */; };
@@ -15,6 +16,13 @@
 		A79B60B71D72E0E600AEE3F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79B60B51D72E0E600AEE3F5 /* LaunchScreen.storyboard */; };
 		A79B60C21D72E0E600AEE3F5 /* GrandLoginRegisterVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B60C11D72E0E600AEE3F5 /* GrandLoginRegisterVCTests.m */; };
 		A79B60CD1D72E0E600AEE3F5 /* GrandLoginRegisterVCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B60CC1D72E0E600AEE3F5 /* GrandLoginRegisterVCUITests.m */; };
+		A79B60E51D72E14100AEE3F5 /* WLModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B60DD1D72E14100AEE3F5 /* WLModalViewController.m */; };
+		A79B60E61D72E14100AEE3F5 /* WLModalViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79B60DE1D72E14100AEE3F5 /* WLModalViewController.xib */; };
+		A79B60E71D72E14100AEE3F5 /* WLModalScrollView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A79B60E01D72E14100AEE3F5 /* WLModalScrollView.xib */; };
+		A79B60E81D72E14100AEE3F5 /* WLModalView.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B60E21D72E14100AEE3F5 /* WLModalView.m */; };
+		A79B60E91D72E14100AEE3F5 /* WLTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = A79B60E41D72E14100AEE3F5 /* WLTextField.m */; };
+		BBC56FEDC93B515ED256C73B /* libPods-GrandLoginRegisterVCUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 57632021224348311EA3C881 /* libPods-GrandLoginRegisterVCUITests.a */; };
+		F516E016D0BB0EABACE5BCBE /* libPods-GrandLoginRegisterVC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB560ACB875C7402F428727 /* libPods-GrandLoginRegisterVC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06E625D28F7863ABC833EAEF /* Pods-GrandLoginRegisterVCTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandLoginRegisterVCTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrandLoginRegisterVCTests/Pods-GrandLoginRegisterVCTests.release.xcconfig"; sourceTree = "<group>"; };
+		27BACBCA71B2CBD61E1ED84E /* Pods-GrandLoginRegisterVCUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandLoginRegisterVCUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrandLoginRegisterVCUITests/Pods-GrandLoginRegisterVCUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BF186AFD13E65BBCC7E6F25 /* Pods-GrandLoginRegisterVC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandLoginRegisterVC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrandLoginRegisterVC/Pods-GrandLoginRegisterVC.debug.xcconfig"; sourceTree = "<group>"; };
+		57632021224348311EA3C881 /* libPods-GrandLoginRegisterVCUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrandLoginRegisterVCUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D06EFE6C4362DB2983CE0A2 /* Pods-GrandLoginRegisterVC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandLoginRegisterVC.release.xcconfig"; path = "Pods/Target Support Files/Pods-GrandLoginRegisterVC/Pods-GrandLoginRegisterVC.release.xcconfig"; sourceTree = "<group>"; };
+		A3BF55BFC3AE4EBC50C0A086 /* libPods-GrandLoginRegisterVCTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrandLoginRegisterVCTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79B60A41D72E0E600AEE3F5 /* GrandLoginRegisterVC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GrandLoginRegisterVC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79B60A81D72E0E600AEE3F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A79B60AA1D72E0E600AEE3F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +65,18 @@
 		A79B60C81D72E0E600AEE3F5 /* GrandLoginRegisterVCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrandLoginRegisterVCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79B60CC1D72E0E600AEE3F5 /* GrandLoginRegisterVCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GrandLoginRegisterVCUITests.m; sourceTree = "<group>"; };
 		A79B60CE1D72E0E600AEE3F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A79B60DC1D72E14100AEE3F5 /* WLModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLModalViewController.h; sourceTree = "<group>"; };
+		A79B60DD1D72E14100AEE3F5 /* WLModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLModalViewController.m; sourceTree = "<group>"; };
+		A79B60DE1D72E14100AEE3F5 /* WLModalViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLModalViewController.xib; sourceTree = "<group>"; };
+		A79B60E01D72E14100AEE3F5 /* WLModalScrollView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLModalScrollView.xib; sourceTree = "<group>"; };
+		A79B60E11D72E14100AEE3F5 /* WLModalView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLModalView.h; sourceTree = "<group>"; };
+		A79B60E21D72E14100AEE3F5 /* WLModalView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLModalView.m; sourceTree = "<group>"; };
+		A79B60E31D72E14100AEE3F5 /* WLTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLTextField.h; sourceTree = "<group>"; };
+		A79B60E41D72E14100AEE3F5 /* WLTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLTextField.m; sourceTree = "<group>"; };
+		A79B60EA1D72E27000AEE3F5 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = GrandLoginRegisterVC/PrefixHeader.pch; sourceTree = "<group>"; };
+		BFB560ACB875C7402F428727 /* libPods-GrandLoginRegisterVC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GrandLoginRegisterVC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC35625EFFE2B072516BC2AB /* Pods-GrandLoginRegisterVCTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandLoginRegisterVCTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrandLoginRegisterVCTests/Pods-GrandLoginRegisterVCTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DEF174F119484D6144D701AB /* Pods-GrandLoginRegisterVCUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GrandLoginRegisterVCUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GrandLoginRegisterVCUITests/Pods-GrandLoginRegisterVCUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F516E016D0BB0EABACE5BCBE /* libPods-GrandLoginRegisterVC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				435769AF8F85AAE2ABDA66D6 /* libPods-GrandLoginRegisterVCTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBC56FEDC93B515ED256C73B /* libPods-GrandLoginRegisterVCUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +110,13 @@
 		A79B609B1D72E0E600AEE3F5 = {
 			isa = PBXGroup;
 			children = (
+				A79B60EA1D72E27000AEE3F5 /* PrefixHeader.pch */,
 				A79B60A61D72E0E600AEE3F5 /* GrandLoginRegisterVC */,
 				A79B60C01D72E0E600AEE3F5 /* GrandLoginRegisterVCTests */,
 				A79B60CB1D72E0E600AEE3F5 /* GrandLoginRegisterVCUITests */,
 				A79B60A51D72E0E600AEE3F5 /* Products */,
+				E2DC446C0DCF15B87BB8C46D /* Pods */,
+				C13E0401336D020260DC8704 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +133,7 @@
 		A79B60A61D72E0E600AEE3F5 /* GrandLoginRegisterVC */ = {
 			isa = PBXGroup;
 			children = (
+				A79B60DA1D72E14100AEE3F5 /* 登录注册VC的优秀封装 */,
 				A79B60AA1D72E0E600AEE3F5 /* AppDelegate.h */,
 				A79B60AB1D72E0E600AEE3F5 /* AppDelegate.m */,
 				A79B60AD1D72E0E600AEE3F5 /* ViewController.h */,
@@ -140,6 +173,60 @@
 			path = GrandLoginRegisterVCUITests;
 			sourceTree = "<group>";
 		};
+		A79B60DA1D72E14100AEE3F5 /* 登录注册VC的优秀封装 */ = {
+			isa = PBXGroup;
+			children = (
+				A79B60DB1D72E14100AEE3F5 /* ModelVC */,
+				A79B60DF1D72E14100AEE3F5 /* View */,
+			);
+			path = "登录注册VC的优秀封装";
+			sourceTree = "<group>";
+		};
+		A79B60DB1D72E14100AEE3F5 /* ModelVC */ = {
+			isa = PBXGroup;
+			children = (
+				A79B60DC1D72E14100AEE3F5 /* WLModalViewController.h */,
+				A79B60DD1D72E14100AEE3F5 /* WLModalViewController.m */,
+				A79B60DE1D72E14100AEE3F5 /* WLModalViewController.xib */,
+			);
+			path = ModelVC;
+			sourceTree = "<group>";
+		};
+		A79B60DF1D72E14100AEE3F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A79B60E01D72E14100AEE3F5 /* WLModalScrollView.xib */,
+				A79B60E11D72E14100AEE3F5 /* WLModalView.h */,
+				A79B60E21D72E14100AEE3F5 /* WLModalView.m */,
+				A79B60E31D72E14100AEE3F5 /* WLTextField.h */,
+				A79B60E41D72E14100AEE3F5 /* WLTextField.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C13E0401336D020260DC8704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFB560ACB875C7402F428727 /* libPods-GrandLoginRegisterVC.a */,
+				A3BF55BFC3AE4EBC50C0A086 /* libPods-GrandLoginRegisterVCTests.a */,
+				57632021224348311EA3C881 /* libPods-GrandLoginRegisterVCUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2DC446C0DCF15B87BB8C46D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BF186AFD13E65BBCC7E6F25 /* Pods-GrandLoginRegisterVC.debug.xcconfig */,
+				5D06EFE6C4362DB2983CE0A2 /* Pods-GrandLoginRegisterVC.release.xcconfig */,
+				CC35625EFFE2B072516BC2AB /* Pods-GrandLoginRegisterVCTests.debug.xcconfig */,
+				06E625D28F7863ABC833EAEF /* Pods-GrandLoginRegisterVCTests.release.xcconfig */,
+				DEF174F119484D6144D701AB /* Pods-GrandLoginRegisterVCUITests.debug.xcconfig */,
+				27BACBCA71B2CBD61E1ED84E /* Pods-GrandLoginRegisterVCUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +234,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A79B60D11D72E0E600AEE3F5 /* Build configuration list for PBXNativeTarget "GrandLoginRegisterVC" */;
 			buildPhases = (
+				678BA58E2B385921687F2350 /* [CP] Check Pods Manifest.lock */,
 				A79B60A01D72E0E600AEE3F5 /* Sources */,
 				A79B60A11D72E0E600AEE3F5 /* Frameworks */,
 				A79B60A21D72E0E600AEE3F5 /* Resources */,
+				BA987D2E240C4B71DDB702B5 /* [CP] Embed Pods Frameworks */,
+				F6F2A3936B708B4F27B904D5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +254,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A79B60D41D72E0E600AEE3F5 /* Build configuration list for PBXNativeTarget "GrandLoginRegisterVCTests" */;
 			buildPhases = (
+				ADC7B49872B40B904D7641DD /* [CP] Check Pods Manifest.lock */,
 				A79B60B91D72E0E600AEE3F5 /* Sources */,
 				A79B60BA1D72E0E600AEE3F5 /* Frameworks */,
 				A79B60BB1D72E0E600AEE3F5 /* Resources */,
+				F53EAC648BB07FBC68FD6357 /* [CP] Embed Pods Frameworks */,
+				9A772E83121AC680B4198BA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +275,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A79B60D71D72E0E600AEE3F5 /* Build configuration list for PBXNativeTarget "GrandLoginRegisterVCUITests" */;
 			buildPhases = (
+				092A22F86DDBDB83ABDD28BC /* [CP] Check Pods Manifest.lock */,
 				A79B60C41D72E0E600AEE3F5 /* Sources */,
 				A79B60C51D72E0E600AEE3F5 /* Frameworks */,
 				A79B60C61D72E0E600AEE3F5 /* Resources */,
+				2FE7C3EEF286CFDE29D385CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,6 +339,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A79B60B71D72E0E600AEE3F5 /* LaunchScreen.storyboard in Resources */,
+				A79B60E71D72E14100AEE3F5 /* WLModalScrollView.xib in Resources */,
+				A79B60E61D72E14100AEE3F5 /* WLModalViewController.xib in Resources */,
 				A79B60B41D72E0E600AEE3F5 /* Assets.xcassets in Resources */,
 				A79B60B21D72E0E600AEE3F5 /* Main.storyboard in Resources */,
 			);
@@ -265,12 +362,138 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		092A22F86DDBDB83ABDD28BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2FE7C3EEF286CFDE29D385CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrandLoginRegisterVCUITests/Pods-GrandLoginRegisterVCUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		678BA58E2B385921687F2350 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A772E83121AC680B4198BA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrandLoginRegisterVCTests/Pods-GrandLoginRegisterVCTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADC7B49872B40B904D7641DD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA987D2E240C4B71DDB702B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrandLoginRegisterVC/Pods-GrandLoginRegisterVC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F53EAC648BB07FBC68FD6357 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrandLoginRegisterVCTests/Pods-GrandLoginRegisterVCTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F2A3936B708B4F27B904D5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GrandLoginRegisterVC/Pods-GrandLoginRegisterVC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A79B60A01D72E0E600AEE3F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A79B60AF1D72E0E600AEE3F5 /* ViewController.m in Sources */,
+				A79B60E81D72E14100AEE3F5 /* WLModalView.m in Sources */,
+				A79B60E91D72E14100AEE3F5 /* WLTextField.m in Sources */,
+				A79B60E51D72E14100AEE3F5 /* WLModalViewController.m in Sources */,
 				A79B60AC1D72E0E600AEE3F5 /* AppDelegate.m in Sources */,
 				A79B60A91D72E0E600AEE3F5 /* main.m in Sources */,
 			);
@@ -411,8 +634,10 @@
 		};
 		A79B60D21D72E0E600AEE3F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BF186AFD13E65BBCC7E6F25 /* Pods-GrandLoginRegisterVC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = GrandLoginRegisterVC/PrefixHeader.pch;
 				INFOPLIST_FILE = GrandLoginRegisterVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hudongshili.GrandLoginRegisterVC;
@@ -422,8 +647,10 @@
 		};
 		A79B60D31D72E0E600AEE3F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D06EFE6C4362DB2983CE0A2 /* Pods-GrandLoginRegisterVC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = GrandLoginRegisterVC/PrefixHeader.pch;
 				INFOPLIST_FILE = GrandLoginRegisterVC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hudongshili.GrandLoginRegisterVC;
@@ -433,6 +660,7 @@
 		};
 		A79B60D51D72E0E600AEE3F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC35625EFFE2B072516BC2AB /* Pods-GrandLoginRegisterVCTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GrandLoginRegisterVCTests/Info.plist;
@@ -445,6 +673,7 @@
 		};
 		A79B60D61D72E0E600AEE3F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06E625D28F7863ABC833EAEF /* Pods-GrandLoginRegisterVCTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = GrandLoginRegisterVCTests/Info.plist;
@@ -457,6 +686,7 @@
 		};
 		A79B60D81D72E0E600AEE3F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEF174F119484D6144D701AB /* Pods-GrandLoginRegisterVCUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GrandLoginRegisterVCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -468,6 +698,7 @@
 		};
 		A79B60D91D72E0E600AEE3F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27BACBCA71B2CBD61E1ED84E /* Pods-GrandLoginRegisterVCUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = GrandLoginRegisterVCUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -496,6 +727,7 @@
 				A79B60D31D72E0E600AEE3F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A79B60D41D72E0E600AEE3F5 /* Build configuration list for PBXNativeTarget "GrandLoginRegisterVCTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +736,7 @@
 				A79B60D61D72E0E600AEE3F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A79B60D71D72E0E600AEE3F5 /* Build configuration list for PBXNativeTarget "GrandLoginRegisterVCUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +745,7 @@
 				A79B60D91D72E0E600AEE3F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
